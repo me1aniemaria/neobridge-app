@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#16243A">
+<meta name="description" content="NeoBridge: hospital-to-home care for preterm and low-birth-weight babies">
+<title>NeoBridge</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app"><p style="padding:24px;font-family:sans-serif">Loading NeoBridge…</p></div>
+<noscript>Please turn on JavaScript to use NeoBridge.</noscript>
+<!-- Order matters: settings, rules, data, belt, voice, then the app -->
+<script src="config.js"></script>
+<script src="rules.js"></script>
+<script src="store.js"></script>
+<script src="belt.js"></script>
+<script src="voice.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
